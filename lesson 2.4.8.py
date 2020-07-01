@@ -6,7 +6,7 @@ import time
 import math
 
 link = "http://suninjuly.github.io/explicit_wait2.html"
-browser = webdriver.Chrome(executable_path="/usr/local/bin/chromedriver")
+browser = webdriver.Chrome()
 browser.get(link)
 
 def calc(x):
